@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:testproject/screenQR/scrennQR.dart';
-
+//simport  
 class ScreenSecond extends StatelessWidget {
     const ScreenSecond({super.key});
 
     @override
   Widget build(BuildContext context) {
     TextEditingController priceController = TextEditingController();
+    
+
     return Scaffold(
       appBar: AppBar(
         title: Text('Screen QR'),
